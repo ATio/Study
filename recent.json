@@ -1,0 +1,13 @@
+---
+layout: nil
+---
+
+[{% for post in site.posts limit:3 %}
+    {
+        "title":"{{post.title}}",
+        "url":"http://study.awthink.net{{post.url}}",
+        "date":"{{post.date|date_to_string}}",
+        "description":"{{ post.description }}"   
+    }{% if forloop.last == false %},{% endif %}
+{% endfor %}
+]
