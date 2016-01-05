@@ -3,7 +3,7 @@ layout: post
 title: 移动端开发中背景图的处理
 description: 移动端开发中一些适合当作背景图的图片的处理。
 keywords: 移动端开发
-category: [致知录]
+category: [致知录,随笔录]
 tags: []
 ---
 

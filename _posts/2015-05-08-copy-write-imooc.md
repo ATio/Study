@@ -3,7 +3,7 @@ layout: post
 title: 仿写慕课网总结
 description: 第一次写，记录不足之处。
 keywords: 网页布局 仿写页面
-category: [致知录]
+category: [致知录>随笔录]
 tags: [web,imooc]
 ---
 
