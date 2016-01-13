@@ -69,3 +69,32 @@ tags: [baidu-ife,百度Web前端技术学院]
 - float元素半脱离文档流：对元素来说，float元素脱离了文档流；但对内容来说，float元素还在文档流当中。
 
 ## flex
+
+flex container、主轴、辅轴
+
+- 在文档流中的直接子元素才是 flex item
+
+### 方向
+
+方向相关的属性：
+
+- flex-direction：方向，行/列，反向行/反向列
+- flex-wrap：换行方式
+- flex-flow：上面两个的缩写
+- order：排列顺序
+
+### 弹性
+
+弹性相关的属性
+
+- flex-grow：分配剩余空间
+- flex-shrinnk：有点像 flex-grow 的相反，当 flex item 超出容器，剩余空间为“负”的时，按什么比例去分配这些“负的”的空间。就是怎么去压缩了。
+- flex-basis：设置 flex item 的初始宽/高。如果弹性元素按行排列，设置的就是宽，如果按列排列，设置的就是高。
+- flex：以上三个的缩写。
+
+### 对齐
+
+- justify-content：设置主轴上的对齐方式。flex-start、flex-end、center、space-between、space-around，有点像text-align的作用，只不过弹性元素有轴的区别。
+- align-items：设置辅轴方向上的对齐方式。类似vertical-align。前三个一样，后两个为 baseline、stretch
+- align-self：设置单个flex item 在辅轴上的对齐方式。`align-items` 对容器内所有的弹性元素生效，而`aligh-self`对单个弹性元素起作用。
+- align-content：设置辅轴方向上**行**的对齐方式。
