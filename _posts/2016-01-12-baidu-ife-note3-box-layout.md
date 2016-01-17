@@ -98,3 +98,6 @@ flex container、主轴、辅轴
 - align-items：设置辅轴方向上的对齐方式。类似vertical-align。前三个一样，后两个为 baseline、stretch
 - align-self：设置单个flex item 在辅轴上的对齐方式。`align-items` 对容器内所有的弹性元素生效，而`aligh-self`对单个弹性元素起作用。
 - align-content：设置辅轴方向上**行**的对齐方式。
+
+update：  
+**对 flex 布局还是不够理解。17号写 t612 的时候，把`justify-content:center;`写在了子元素上了……其实应该写在外层设置`display:flex;`的元素上**
